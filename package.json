@@ -1,0 +1,23 @@
+{
+  "name": "setup-taiga-centos",
+  "version": "3.0.1",
+  "description": "Automated deployment of project management tools taiga.",
+  "scripts": {
+    "test": "bash -n setup-taiga-centos.sh",
+    "postinstall": "./tutorial.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bingmang/setup-taiga-centos.git"
+  },
+  "keywords": [
+    "taiga",
+    "centos",
+    "automated",
+    "deploy",
+    "project",
+    "management"
+  ],
+  "author": "bingmang",
+  "license": "MIT"
+}
